@@ -3,7 +3,11 @@ public class Nokia {
 public static void main(String[] args){
 Scanner inputCollector = new Scanner(System.in);
 System.out.println("***************************************");
-System.out.println("WELCOME TO NOKIA 3310-THE HARDEST IN THE WORLD");
+System.out.println("WELCOME TO NOKIA 3310-THE HARDEST IN THE WORLD");     
+
+
+
+
 System.out.println("***************************************");
 System.out.println("********************");
 System.out.println("\tMAIN MENU");
@@ -24,8 +28,16 @@ System.out.println("13: SIM SERVICES");
 System.out.println("*********************");
 System.out.println("*********************");
 System.out.println("ENTER");
+
+
+
+while(true){
 int choice = inputCollector.nextInt();
 switch(choice){
+
+
+
+
 case 1 ->{
 System.out.println("***************");
 System.out.println("PHONEBOOK📞️");
@@ -41,6 +53,11 @@ System.out.println("8: Options");
 System.out.println("9: Speed dials");
 System.out.println("10: Voice tags");
 }
+
+
+
+
+
 case 2 ->{
 System.out.println("*********************");
 System.out.println("MESSAGES💬️");
@@ -71,6 +88,11 @@ System.out.println("8: Info service");
 System.out.println("9: Voice mailbox number");
 System.out.println("10: Service command editor");
 }
+
+
+
+
+
 case 3 ->{
 System.out.println("*********************");
 System.out.println("CHAT📱️");
@@ -81,6 +103,11 @@ System.out.println("3: 2go");
 System.out.println("4: Messager");
 System.out.println("5: Templates");
 }
+
+
+
+
+
 case 4 ->{
 System.out.println("*********************");
 System.out.println("CALL REGISTER📲️");
@@ -204,5 +231,6 @@ System.out.println("SIM SERVICES3");
 System.out.println("*********************");
 }
 } 
+}
 }
 }

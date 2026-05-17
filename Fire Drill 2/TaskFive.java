@@ -1,15 +1,14 @@
 import java.util.Scanner;
-public class TaskTwo{
+public class TaskFive{
 public static void main(String[] args){
 int sum = 0;
 Scanner inputCollector = new Scanner(System.in);
 for(int count = 1; count <= 10; count ++){
-System.out.println("Enter number: " + count);
+System.out.println("Enter number: ");
 int countInput = inputCollector.nextInt();
-sum += countInput;
-double average = sum /10;
+sum = sum + countInput;
 }
-System.out.println("Total: " + sum);
+int average = sum / 10;
 System.out.println("Total: " + average);
 }
 }

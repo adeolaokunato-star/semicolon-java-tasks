@@ -24,8 +24,8 @@ System.out.println("13: SIM SERVICES📶️");
 System.out.println("*********************");
 System.out.println("*********************");
 System.out.println("ENTER :");
-int choice = inputCollector.nextInt();
 while(true){
+int choice = inputCollector.nextInt();
 switch(choice){
 case 1 ->{
 System.out.println("***************");
